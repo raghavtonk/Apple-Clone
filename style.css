@@ -1,9 +1,83 @@
 #nav_div {
+  box-sizing: border-box;
   display: flex;
-  width: 1512px;
+  gap: 33px;
+  margin-top: 0px;
   height: 44px;
-  padding: 0px 244px;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.8);
+}
+#nav_div > img {
+  width: 43px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-inline: 50px;
+}
+#img_menu {
+  display: flex;
+  height: 129px;
+  padding: 3px 171.672px 49px 171.672px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40.422px;
+  flex-shrink: 0;
+  flex-direction: row;
+}
+#mainpage1 {
+  display: flex;
+  height: 1134.5px;
+  padding: 113px 266px 0px 266px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  flex-direction: column;
+}
+#mPage2 {
+  display: flex;
+
+  height: 930.5px;
+  padding: 133px 266px 0px 266px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #000;
+  color: #fff;
+}
+#mPage3 {
+  display: flex;
+  /* width: 1200px; */
+  height: 830px;
+  padding-left: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+}
+#mPage4 {
+  display: flex;
+  width: 1440px;
+  height: 814px;
+  padding: 0px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  background: url(shareImg/page4/figure.svg), lightgray 50% / contain no-repeat;
+}
+#mPage5 {
+  display: flex;
+  padding: 116px 266px 119px 266px;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  color: #1D1D1F;
+}
+#mPage5>h2{
+    text-align:center;
+}
+#mPage5>table>div{
+    flex-direction: column;
 }
