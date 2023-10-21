@@ -1,0 +1,9 @@
+#nav_div {
+  display: flex;
+  width: 1512px;
+  height: 44px;
+  padding: 0px 244px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+}
